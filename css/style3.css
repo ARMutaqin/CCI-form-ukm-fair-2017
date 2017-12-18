@@ -1,0 +1,25 @@
+body, html {
+    height: 105%;
+    margin: 0;
+}
+body{
+	/*background-color: #124411;*/
+}
+
+.tulisan-cci{
+	color: #ffffff;
+}
+.bg {
+    /* The image used */
+    background-image: url("../img/bg1.jpg");
+
+    /* Full height */
+    height: 115%; 
+    margin: 0;
+    padding: 0;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

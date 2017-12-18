@@ -1,0 +1,138 @@
+body, html {
+    height: 105%;
+    margin: 0;
+}
+body{
+	/*background-color: #124411;*/
+}
+
+.tulisan-cci{
+	color: #ffffff;
+}
+.bg {
+    background-image: url("../img/bg1.jpg");
+    position: relative;
+    height: 127%;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg img.background{
+    position: absolute;
+    height: 103%; 
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@-webkit-keyframes imgFade{
+    0%{
+        opacity: 1;
+    }
+    17%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    92%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes imgFade{
+    0%{
+        opacity: 1;
+    }
+    17%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    92%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes imgFade{
+    0%{
+        opacity: 1;
+    }
+    17%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    92%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes imgFade{
+    0%{
+        opacity: 1;
+    }
+    17%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    92%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.bg img.background{
+    -webkit-animation-name: imgFade;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 20s;
+
+    -moz-animation-name: imgFade;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 20s;
+
+    -o-animation-name: imgFade;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 20s;
+
+    animation-name: imgFade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.bg img.background:nth-of-type(1){
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+    -o-animation-delay: 7s;
+    animation-delay: 7s;
+}
+.bg img.background:nth-of-type(2){
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+}
